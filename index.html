@@ -4,33 +4,43 @@
 	<title>Calculator</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<div class="display">
-			<p>12345</p>
-		</div>
-		<div class="input">
-			<button class="clear">AC</button>
-			<button class="plusminus">+/-</button>
-			<button class="percentage">%</button>
-			<button class="operator">/</button>
-			<button class="number">7</button>
-			<button class="number">8</button>
-			<button class="number">9</button>
-			<button class="operator">X</button>
-			<button class="number">4</button>
-			<button class="number">5</button>
-			<button class="number">6</button>
-			<button class="operator">-</button>
-			<button class="number">1</button>
-			<button class="number">2</button>
-			<button class="number">3</button>
-			<button class="operator">+</button>
-			<button class="number" id="zero">0</button>
-			<button class="decimal">.</button>
-			<button class="operator">=</button>
-		</div>
+	<div class="container" align="center">
+		<table align="center">
+			<tr>
+				<td class="display" colspan="4" id="display">12345</td>
+			</tr>
+			<tr>
+				<td class="toprow clear">AC</td>
+				<td class="toprow plusminus">+/-</td>
+				<td class="toprow percentage">%</td>
+				<td class="operator">/</td>
+			</tr>
+			<tr>
+				<td class="number">7</td>
+				<td class="number">8</td>
+				<td class="number">9</td>
+				<td class="operator">X</td>
+			</tr>
+			<tr>
+				<td class="number">4</td>
+				<td class="number">5</td>
+				<td class="number">6</td>
+				<td class="operator">-</td>
+			</tr>
+			<tr>
+				<td class="number">1</td>
+				<td class="number">2</td>
+				<td class="number">3</td>
+				<td class="operator">+</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="number" id="zero">0</td>
+				<td class="decimal">.</td>
+				<td class="operator">=</td>
+			</tr>
 	</div>
 </body>
 </html>
