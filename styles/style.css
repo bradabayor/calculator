@@ -1,10 +1,17 @@
+@font-face {
+	font-family: chicago;
+	src: url('chicago.ttf');
+}
+
 body {
 	margin:; 0;
 	padding: 0;
 }
 
 .container {
-	width: 500px;
+	width: 100%;
+	margin-right: auto;
+	margin-right: auto;
 
 	
 }
@@ -20,8 +27,8 @@ button {
 
 table {
 	border-collapse: collapse;
-	border: 2px black solid;
 	border-radius: 5px;
+	box-shadow: 0 0 10px;
 }
 
 
@@ -30,7 +37,7 @@ table td {
 	height: 90px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 38px;
+	font-size: 40px;
 	background-color: #e0e0e0;
 	border: 1px #8e8e8e solid;
 	border-collapse: collapse;
@@ -41,9 +48,13 @@ table td:hover {
 	background-color: #8e8e8e;
 }
 
-.operator {
+.operator, #equals {
 	background-color: #f19233;
 	color: white;
+}
+
+.operator:hover, #equals:hover {
+	background-color: #c47526;
 }
 
 #display {
